@@ -1,0 +1,175 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+max-width: 100%;
+letter-spacing:1px;
+font-size: 100%; 
+font: inherit;  
+vertical-align: baseline;  
+/* border: 1px solid orange; */
+}
+/*GENERAL STYLES*/
+
+html {
+    font-size:62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+    /* letter-spacing: normal; */
+    font-family: 'Noto Sans JP', sans-serif;
+    text-decoration: none;
+    background-color: #4b4949;
+    color: white;
+    letter-spacing: 0.0625rem;
+    width: 100%;
+}
+
+h1 {
+    color:white;
+    font-size:2rem;
+    letter-spacing: .5rem;
+    font-style: italic;
+}
+
+h2 {
+    color:yellow;
+    font-size:2.5rem;
+    font-style: italic;
+}
+
+header {
+    display: block;
+    align-items: center;
+    background-color: black;
+}
+
+.headertop {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.headernav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: #4b4949; */
+}
+
+.headernav a {
+    color:white;
+    text-decoration: none;
+    /* background-color: #48b5e0;
+    border: 1px solid red; */
+    padding-left: 4%;
+    padding-right: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#headerlogin {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#headerlogin a {
+    color:white;
+    text-decoration: none;
+    /* background-color:rgb(66, 66, 26);
+    border: 1px solid red; */
+    padding-right: 4%;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+header section {
+    /* border: 2px dotted yellow; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Welcome {
+    background-image: url("https://images.unsplash.com/photo-1532354058425-ba7ccc7e4a24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    /* margin:5% 0; */
+    /* opacity: 0.6; */
+}
+
+.Welcome p {
+    font-size: 5rem;
+    text-shadow: .2rem .2rem .5rem #000000;
+}
+
+.Welcome button {
+    background-color:#1DB954;
+    border-radius: 35px;
+    font-size: 1.6rem;
+    padding: 1% 5%;
+}
+
+.Welcome button:hover {
+    font-style: italic;
+}
+
+.Welcome button:visited {
+    background-color: grey;
+}
+
+.aboutWelcome {
+    background-image: url("https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+    /* margin:5% 0; */
+}
+
+.contact {
+    color:white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1% 2%;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 3% 2%;
+}
