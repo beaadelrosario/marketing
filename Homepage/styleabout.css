@@ -20,7 +20,7 @@ letter-spacing:1px;
 font-size: 100%; 
 font: inherit;  
 vertical-align: baseline;  
-border: 1px solid orange;
+/* border: 1px solid orange; */
 }
 /*GENERAL STYLES*/
 
@@ -58,12 +58,6 @@ header {
     height: auto;
 }
 
-h1 {
-    color:rgb(223, 221, 221);
-    font-size:3rem;
-    font-style: italic;
-}
-
 #headernav {
     text-align: right;
     min-width:25%;
@@ -84,10 +78,86 @@ a {
 }
 
 .aboutWelcome {
-    background-image: url("https://images.unsplash.com/photo-1522071901873-411886a10004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     height:80vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+
+.aboutWelcome h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-end;
+    text-shadow: .2rem .2rem 2rem #353434;
+    padding: 2% 2% 2% 2%;
+    position: absolute;
+    right:15px;
+    width: 40vw;
+}
+
+h1 {
+    color:rgb(223, 221, 221);
+    font-size:3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.aboutcontainer {
+    text-align: center;
+}
+
+.meettheteam {
+    font-size: 2rem;
+}
+
+#names {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color:white;
+    font-size:2rem;
+    font-style: italic;
+    font-size: 5rem;
+    text-shadow: .2rem .2rem .5rem #000000;
+}
+
+.getStarted {
+    background-image: url("https://images.unsplash.com/photo-1559619081-8fd2cc754ca3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:30vh;
+    /* border: 2px solid red; */
+}
+
+#signUp {
+    background-color:#1DB954;
+    border-radius: 35px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+
+#signUp button:hover {
+    font-style: italic;
+}
+
+.contact {
+    color:white;
+    /* background-color: black; */
+    text-decoration: none;
+    padding: 1% 2%;
+}
+
+footer {
+    background-color: #0e0d0d;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 3% 2%;
 }
