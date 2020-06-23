@@ -105,12 +105,18 @@ h1 {
     text-transform: uppercase;
 }
 
-.aboutcontainer {
+.who {
     text-align: center;
 }
 
 .meettheteam {
     font-size: 2rem;
+    background-color: #353434;
+}
+
+h3 {
+    font-size: 3rem;
+    font-style: italic;
 }
 
 #names {
