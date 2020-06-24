@@ -83,6 +83,10 @@ a {
     text-transform: uppercase;
 }
 
+#headernav a:hover {
+    color:#1DB954;
+}
+
 .aboutBanner {
     background-image: url("https://images.unsplash.com/photo-1555421689-3f034debb7a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-position: top;
@@ -247,25 +251,31 @@ h3 {
 }
 
 #signUp {
-    background-color:#1DB954;
+    background-color:whitesmoke;
     border-radius: 35px;
+    border-color:#1DB954;
     font-size: 2rem;
     text-transform: uppercase;
     margin-top: 1%;
 }
 
-#signUp button:hover {
-    font-style: italic;
+#signUp:hover {
+    background-color:#1DB954;
+    border-radius: 35px;
+    border-color: : #1DB954;
 }
 
 footer {
-    background-color:#0e0d0d;
+    background-color: #0e0d0d;
     color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 3% 2%;
+}
+
+footer p{
+    font-size: 1rem;
 }
 
 .contact {
