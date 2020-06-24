@@ -151,6 +151,10 @@ footer p{
     padding: 1% 2%;
 }
 
+.contact:hover{
+    color:#1DB954;
+}
+
 h2 {
     color:white;
     font-size:2rem;

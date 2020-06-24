@@ -96,6 +96,31 @@ a {
     /* border: 2px solid red; */
 }
 
+.contactBanner {
+    background-image: url("https://images.unsplash.com/photo-1573495804664-b1c0849525af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:75vh;
+}
+
+.contactBanner h1{
+    font-size: 3rem;
+    text-shadow: .2rem .2rem 4rem #353434;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+    position: absolute;
+    right:20px;
+    width: 20vw;
+    padding-top:5%;
+    padding-bottom: 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutBanner p {
     text-shadow: .2rem .2rem .2rem #353434;
     padding: 10% 7% 3% 10%;
@@ -283,6 +308,10 @@ footer p{
     /* background-color: black; */
     text-decoration: none;
     padding: 1% 2%;
+}
+
+.contact:hover{
+    color:#1DB954;
 }
 
 /* max-width 500px */
