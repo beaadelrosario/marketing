@@ -194,12 +194,16 @@ hr {
 .meettheteam p{
     font-size: 1.3rem;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
     /* background-color: pink; */
 }
 
 .teamMemberPic {
     height:25vh;
     border-radius: 50%;
+    padding-top: 3%;
+    padding-bottom: 1%;
     /* box-shadow:0 0 4px rgb(83, 80, 80); */
 }
 
