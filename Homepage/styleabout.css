@@ -233,7 +233,7 @@ h2 {
 .teamMemberPic {
     height:25vh;
     border-radius: 50%;
-    padding: 3% 10% 1% 10%;
+    /* padding: 3% 10% 1% 10%; */
     /* box-shadow:0 0 4px rgb(83, 80, 80); */
 }
 
@@ -423,7 +423,6 @@ footer p{
     
     .teamMemberPic {
         height:25vh;
-        border-radius: 50%;
         /* box-shadow:0 0 4px rgb(83, 80, 80); */
     }
     #team {
