@@ -60,6 +60,8 @@ header {
     color:rgb(223, 221, 221);
     font-size:3rem;
     font-style: italic;
+    text-transform: uppercase;
+    padding: 2% 0%;
 }
 
 #headernav {
@@ -221,6 +223,7 @@ h2 {
         color:rgb(223, 221, 221);
         font-size:1.5rem;
         font-style: italic;
+        text-transform: uppercase;
     }
 
     #headernav {
@@ -275,8 +278,9 @@ h2 {
 
     #headerHome {
         color:rgb(223, 221, 221);
-        font-size:2.5rem;
+        font-size: 1.5rem;
         font-style: italic;
+        text-transform: uppercase;
     }
     
     #headernav {
@@ -287,6 +291,7 @@ h2 {
     #headernav a {
         color:white;
     }
+
     
     .homeSignup {
         padding-top:7%;

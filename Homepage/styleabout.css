@@ -62,6 +62,8 @@ header {
     color: rgb(223, 221, 221);
     font-size: 3rem;
     font-style: italic;
+    padding: 2% 0%;
+    text-transform: uppercase;
 }
 
 #headernav {
@@ -465,9 +467,7 @@ footer p{
     }
 
     #headerAbout {
-        color:rgb(223, 221, 221);
-        font-size:2.5rem;
-        font-style: italic;
+        font-size: 1.5rem;
     }
     
     #headernav {
