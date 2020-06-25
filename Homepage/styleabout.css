@@ -20,7 +20,7 @@ letter-spacing:1px;
 font-size: 100%; 
 font: inherit;  
 vertical-align: baseline;  
-border: 1px solid orange;
+/* border: 1px solid orange; */
 }
 /*GENERAL STYLES*/
 
@@ -68,7 +68,7 @@ header {
 
 #headernav {
     text-align: right;
-    width:60%;
+    width:100%;
     /* background-color:teal; */
 }
 
@@ -254,7 +254,7 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width:70%;
+    width:70vw;
     /* border: 2px solid red; */
 }
 
@@ -343,9 +343,7 @@ footer p{
     }
 
     #headernav {
-        text-align: center;
-        /* max-width: 70%; */
-        padding: 3% 1%;
+        max-width: 80%;
         /* background-color:white; */
     }
     
@@ -403,16 +401,6 @@ footer p{
         width:auto;
     }
 
-    .meettheteam {
-        font-size: 2rem;
-        background-color:rgb(32, 30, 30);
-        padding: 2% 2% 2% 2%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
     #meetHeader {
         padding-top: 5%;
         padding-bottom: 5%;
@@ -438,10 +426,10 @@ footer p{
         /* box-shadow:0 0 4px rgb(83, 80, 80); */
     }
     #team {
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 75vw;
+        /* flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-evenly; */
+        max-width: 95%;
         padding-bottom: 5%;
     }
 }
@@ -476,6 +464,7 @@ footer p{
     #headernav {
         text-align: center;
         padding: 3% 1%;
+        max-width: 90%;
     }
     
     #headernav a {
@@ -495,6 +484,15 @@ footer p{
 
     h3{
         width: auto;
+        padding: 10% 0%;
+    }
+
+    .meettheteam {
+        font-size: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
     }
 
     .whoMainContainer {
@@ -517,5 +515,12 @@ footer p{
         margin-right: 0;
         width: auto;
     }
+
+    #team {
+        /* flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly; */
+        max-width: 50%;
+        padding-bottom: 5%;
 
 }

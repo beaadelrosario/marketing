@@ -227,9 +227,7 @@ h2 {
     }
 
     #headernav {
-        text-align: center;
-        /* width:70%; */
-        padding: 3% 1%;
+        max-width: 80%;
         /* background-color:white; */
     }
     
@@ -299,6 +297,7 @@ h2 {
         /* background-color:white; */
         text-align: center;
         padding: 3% 1%;
+        max-width: 90%;
     }
     
     #headernav a {
