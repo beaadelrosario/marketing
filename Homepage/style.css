@@ -66,7 +66,7 @@ header {
 
 #headernav {
     text-align: right;
-    width: 25%;
+    width: 60%;
     /* background-color:teal; */
 }
 
@@ -228,7 +228,7 @@ h2 {
 
     #headernav {
         text-align: center;
-        width:50%;
+        width:70%;
         padding: 3% 1%;
         /* background-color:white; */
     }
@@ -298,7 +298,6 @@ h2 {
     #headernav {
         /* background-color:white; */
         text-align: center;
-        width:35%;
         padding: 3% 1%;
     }
     
