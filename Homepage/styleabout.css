@@ -76,8 +76,8 @@ header {
     color:white;
     text-decoration: none;
     text-align: center;
-    min-width:25%;
-    padding-left: 3%;
+    min-width:50vw;
+    padding: 1% 3%;
 }
 
 a {
@@ -136,8 +136,9 @@ a {
 }
 
 h1 {
+    color:rgb(32, 32, 32);
     font-size: 3rem;
-    text-shadow: 0.2rem 0.2rem 3.3rem #353434;
+    text-shadow: .2rem .2rem .7rem #ebe9e9;
     text-align: center;
     text-transform: uppercase;
     display: flex;
@@ -279,8 +280,7 @@ h3 {
     background-color:whitesmoke;
     border-radius: 35px;
     border-color:#1DB954;
-    font-size: 2rem;
-    text-transform: uppercase;
+    font-size: 1.5rem;
     margin-top: 1%;
 }
 
@@ -344,7 +344,8 @@ footer p{
 
     #headernav {
         text-align: center;
-        min-width:50%;
+        min-width:60vw;
+        padding: 3% 1%;
         /* background-color:white; */
     }
     
@@ -358,9 +359,10 @@ footer p{
     }
 
     h1 {
+        color:whitesmoke;
         font-size: 2rem;
-        text-shadow: .2rem .2rem 1.7rem #353434;
-        padding: 10% 7% 3% 1%;
+        text-shadow: .2rem .2rem .5rem #333333;
+        padding: 15% 7% 3% 1%;
         width: 54vw;
         /* border: 2px solid yellow; */
     }
@@ -474,6 +476,8 @@ footer p{
     #headernav {
         /* background-color:white; */
         text-align: center;
+        min-width:60vw;
+        padding: 3% 1%;
     }
     
     #headernav a {
@@ -482,12 +486,6 @@ footer p{
 
     .main {
         padding: 0% 0%;
-    }
-
-    h1 {
-    font-size: 2rem;
-    text-shadow: .2rem .2rem 1.7rem #353434;
-    text-transform: uppercase;
     }
 
     h2 {

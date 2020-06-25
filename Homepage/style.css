@@ -79,8 +79,8 @@ a {
     color:white;
     text-decoration: none;
     text-align: center;
-    min-width:25%;
-    padding-left: 3%;
+    min-width:50vw;
+    padding: 1% 3%;
 }
 
 #headernav a:hover {
@@ -110,8 +110,9 @@ a {
 }
 
 h1 {
+    color:rgb(32, 32, 32);
     font-size: 3rem;
-    text-shadow: .2rem .2rem 2rem #353434;
+    text-shadow: .2rem .2rem .7rem #ebe9e9;
     text-align: center;
     text-transform: uppercase;
     width: 100%;
@@ -122,8 +123,7 @@ h1 {
     background-color:whitesmoke;
     border-radius: 35px;
     border-color:#1DB954;
-    font-size: 2rem;
-    text-transform: uppercase;
+    font-size: 1.5rem;
     margin-top: 1%;
 }
 
@@ -229,6 +229,8 @@ h2 {
     #headernav {
         text-align: center;
         min-width:50%;
+        min-width:60vw;
+        padding: 3% 1%;
         /* background-color:white; */
     }
     
@@ -242,8 +244,10 @@ h2 {
     }
     
     h1 {
+        color:whitesmoke;
         font-size: 2rem;
-        text-shadow: .2rem .2rem 2rem #353434;
+        text-shadow: .2rem .2rem 3rem #353434;
+        max-width: 70vw;
         /* border: 2px solid yellow; */
     }
 
@@ -295,6 +299,8 @@ h2 {
     #headernav {
         /* background-color:white; */
         text-align: center;
+        min-width:60vw;
+        padding: 3% 1%;
     }
     
     #headernav a {
@@ -307,9 +313,10 @@ h2 {
     }
 
     h1 {
+        color:white;
         font-size: 2rem;
-        text-shadow: .2rem .2rem 2rem #353434;
-        text-transform: uppercase;
+        width: 50vw;
+        text-shadow: .3rem .3rem 2rem #5e5a5a;
         /* border: 2px solid yellow; */
     }
 
@@ -318,14 +325,12 @@ h2 {
         padding:5% 2%;
     }
 
-    #howItWorks hr {
-        width:40vw;
-    }
+
 }
 
 /* max width 1000px */
 
-@media (max-width:1000px) {
+/* @media (max-width:1000px) {
 
     /* header {
         background-color:#0e0d0d;
@@ -334,5 +339,5 @@ h2 {
 
     .homeSignup {
         padding-top:7%;
-    }
+    } */
 }
