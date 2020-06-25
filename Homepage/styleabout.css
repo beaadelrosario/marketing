@@ -145,7 +145,7 @@ h1 {
     justify-content: stretch;
     align-items: flex-end;
     padding: 10% 7% 3% 10%;
-    width: 30vw;
+    width: 40vw;
 }
 
 .main {
@@ -233,8 +233,7 @@ hr {
 .teamMemberPic {
     height:25vh;
     border-radius: 50%;
-    padding-top: 3%;
-    padding-bottom: 1%;
+    padding: 3% 10% 1% 10%;
     /* box-shadow:0 0 4px rgb(83, 80, 80); */
 }
 
@@ -246,17 +245,17 @@ h3 {
     font-weight: 900;
     text-align: center;
     /* padding-top: 25vh; */
-    padding: 17% 0% 17% 0%;
-    width:15vw;
+    /* padding: 17% 0% 17% 0%; */
+    width:auto;
 }
 
 #team {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* border: 2px solid red; */
+    justify-content: space-evenly;
     max-width:70%;
+    border: 2px solid red;
 }
 
 #mainEnd {
@@ -442,7 +441,7 @@ footer p{
         flex-wrap: wrap;
         justify-content: space-evenly;
         width: 75vw;
-        padding-bottom: 10%;
+        padding-bottom: 5%;
     }
 }
 
