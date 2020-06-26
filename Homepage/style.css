@@ -85,6 +85,7 @@ a {
 
 #headernav a:hover {
     color:#1DB954;
+    text-decoration-line: underline;
 }
 
 .Welcome {
